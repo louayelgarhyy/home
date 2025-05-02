@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://louayelgarhyy.github.io/home/sitemap.xml
