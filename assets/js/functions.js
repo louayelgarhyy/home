@@ -253,6 +253,7 @@ $( document ).ready(function() {
 
   }
 
+
   function transitionLabels() {
 
     $('.work-request--information input').focusout(function(){

@@ -1441,8 +1441,11 @@ body {
 .contact--lockup .modal--options li:nth-child(2) {
     background-color: #ea4c89
 }
-
 .contact--lockup .modal--options li:nth-child(3) {
+    background-color: #005d4b
+}
+
+.contact--lockup .modal--options li:nth-child(4) {
     margin-bottom: 0;
     background-color: #0f33ff;
     text-transform: uppercase
@@ -1618,7 +1621,8 @@ body {
 }
 
 .work-request--information .information-name,
-.work-request--information .information-email {
+.work-request--information .information-email,
+.work-request--information .information-phone {
     position: relative;
     width: 45%;
     height: 50px;
@@ -1627,7 +1631,9 @@ body {
 }
 
 .work-request--information input[type="text"],
-.work-request--information input[type="email"] {
+.work-request--information input[type="email"],
+.work-request--information input[type="tel"]
+{
     width: 100%;
     padding: 0 0 5px 0;
     background-color: transparent;
@@ -1637,7 +1643,10 @@ body {
 }
 
 .work-request--information input[type="text"]:focus,
-.work-request--information input[type="email"]:focus {
+.work-request--information input[type="email"]:focus 
+
+.work-request--information input[type="tel"]:focus {
+    border-bottom: 1px solid #0f33ff;
     outline: none;
     background-color: #0c0c0c
 }
@@ -1707,7 +1716,9 @@ body {
     }
 
     .work-request--information .information-name,
-    .work-request--information .information-email {
+    .work-request--information .information-email,
+    .work-request--information .information-phone
+    {
         height: 40px;
         font-size: 24px
     }
